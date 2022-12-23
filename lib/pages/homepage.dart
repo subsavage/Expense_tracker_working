@@ -67,40 +67,32 @@ class _HomePageState extends State<HomePage> {
               return ListView(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(12.0),
+                    padding: const EdgeInsets.all(15),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Row(
-                          children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                color: Colors.white70,
-                              ),
-                              padding: EdgeInsets.all(12),
-                            ),
-                            Text(
-                              "Hey There",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.blue,
-                              ),
-                            )
-                          ],
-                        ),
-                        Container(
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white70,
-                          ),
-                          padding: EdgeInsets.all(12),
-                          child: Icon(
-                            Icons.settings,
-                            size: 32,
-                          ),
-                        ),
+                        // Row(
+                        //   children: [
+                        //     Text(
+                        //       "Track Your Money",
+                        //       style: TextStyle(
+                        //         fontSize: 20,
+                        //         fontWeight: FontWeight.bold,
+                        //         color: Color.fromARGB(255, 126, 126, 126),
+                        //       ),
+                        //     )
+                        //   ],
+                        // ),
+                        // Container(
+                        //   decoration: BoxDecoration(
+                        //     color: Colors.transparent,
+                        //   ),
+                        //   padding: EdgeInsets.all(12),
+                        //   child: Icon(
+                        //     Icons.settings,
+                        //     size: 32,
+                        //   ),
+                        // ),
                       ],
                     ),
                   ),
@@ -217,12 +209,7 @@ class _HomePageState extends State<HomePage> {
       children: [
         Container(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.blue,
-                Colors.amber,
-              ],
-            ),
+            color: Color.fromARGB(255, 216, 204, 204),
             borderRadius: BorderRadius.all(
               Radius.circular(12),
             ),
@@ -231,6 +218,7 @@ class _HomePageState extends State<HomePage> {
           child: Icon(
             Icons.arrow_downward_rounded,
             size: 25,
+            color: Colors.green,
           ),
           margin: EdgeInsets.only(right: 8),
         ),
@@ -261,12 +249,7 @@ class _HomePageState extends State<HomePage> {
       children: [
         Container(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.blue,
-                Colors.amber,
-              ],
-            ),
+            color: Color.fromARGB(255, 216, 204, 204),
             borderRadius: BorderRadius.all(
               Radius.circular(12),
             ),
@@ -274,6 +257,7 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.all(6),
           child: Icon(
             Icons.arrow_upward_rounded,
+            color: Colors.red,
             size: 25,
           ),
           margin: EdgeInsets.only(right: 8),
@@ -305,8 +289,8 @@ class _HomePageState extends State<HomePage> {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 190, 209, 218),
-        borderRadius: BorderRadius.circular(10),
+        color: Color.fromARGB(255, 225, 232, 236),
+        borderRadius: BorderRadius.circular(20),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -346,8 +330,20 @@ class _HomePageState extends State<HomePage> {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 190, 209, 218),
-        borderRadius: BorderRadius.circular(10),
+        color: Color.fromARGB(255, 225, 232, 236),
+        borderRadius: BorderRadius.circular(20),
+        // boxShadow: [
+        //   BoxShadow(
+        //       color: Colors.grey.shade600,
+        //       offset: Offset(5, 5),
+        //       blurRadius: 15,
+        //       spreadRadius: 1),
+        //   BoxShadow(
+        //       color: Colors.grey.shade300,
+        //       offset: Offset(-5, -5),
+        //       blurRadius: 15,
+        //       spreadRadius: 1)
+        // ],
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
