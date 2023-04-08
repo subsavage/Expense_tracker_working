@@ -1,16 +1,18 @@
-# expense_tracker_hive
 
-A new Flutter project.
+# EXPENSE TRACKER
 
-## Getting Started
+An app that helps you keep track of your daily expenses.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Screenshots
+
+![App Screenshot](https://drive.google.com/file/d/1zsNEcMqO55Mx9-y9uy45OALpy3NRJKr6/view?usp=sharing)
+
+![App Screenshot](https://drive.google.com/file/d/1FmvNxrSi3bBJm0nPmAL24q7p9_kzue1o/view?usp=sharing)
+
+![App Screenshot](https://drive.google.com/file/d/1bfK0BJ0zAY-kMXj7aJVXDO0AO1GdtFLk/view?usp=sharing)
+
